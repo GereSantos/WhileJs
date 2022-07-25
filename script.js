@@ -21,5 +21,10 @@ switch (choice) {
             'Dobras realizadas: ' + dobra)
         alert('Finalizando Programa')
         break;
-
+        
+    default:
+        alert('Fora do Escopo! \n' +
+            'As únicas opções possível são 1 e 2. \n' +
+            '1 - Sim ou 2 = Não.')
+        break;
 }
